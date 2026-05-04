@@ -13,9 +13,9 @@
   <DisplayName DefaultValue="EasyTask for Outlook" />
   <Description DefaultValue="Turn any email into an EasyTask task in one click. Select a project, section, assignees, and due date — your task is created instantly." />
 
-  <!-- 2. ICONS — replace YOUR-VERCEL-URL with your deployed URL -->
-  <IconUrl DefaultValue="https://YOUR-VERCEL-URL/assets/icon-80.png" />
-  <HighResolutionIconUrl DefaultValue="https://YOUR-VERCEL-URL/assets/icon-80.png" />
+  <!-- 2. ICONS — replace outlook-geteasytask.netlify.app with your deployed URL -->
+  <IconUrl DefaultValue="https://outlook-geteasytask.netlify.app/assets/icon-80.png" />
+  <HighResolutionIconUrl DefaultValue="https://outlook-geteasytask.netlify.app/assets/icon-80.png" />
   <SupportUrl DefaultValue="https://geteasytask.com/contact" />
 
   <!-- 3. ALLOWED DOMAINS -->
@@ -41,8 +41,8 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <!-- replace YOUR-VERCEL-URL with your deployed URL -->
-        <SourceLocation DefaultValue="https://YOUR-VERCEL-URL/index.html" />
+        <!-- replace outlook-geteasytask.netlify.app with your deployed URL -->
+        <SourceLocation DefaultValue="https://outlook-geteasytask.netlify.app/index.html" />
         <RequestedHeight>450</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -101,15 +101,15 @@
 
     <Resources>
       <bt:Images>
-        <!-- replace YOUR-VERCEL-URL with your deployed URL -->
-        <bt:Image id="Icon.16x16" DefaultValue="https://YOUR-VERCEL-URL/assets/icon-16.png" />
-        <bt:Image id="Icon.32x32" DefaultValue="https://YOUR-VERCEL-URL/assets/icon-32.png" />
-        <bt:Image id="Icon.80x80" DefaultValue="https://YOUR-VERCEL-URL/assets/icon-80.png" />
+        <!-- replace outlook-geteasytask.netlify.app with your deployed URL -->
+        <bt:Image id="Icon.16x16" DefaultValue="https://outlook-geteasytask.netlify.app/assets/icon-16.png" />
+        <bt:Image id="Icon.32x32" DefaultValue="https://outlook-geteasytask.netlify.app/assets/icon-32.png" />
+        <bt:Image id="Icon.80x80" DefaultValue="https://outlook-geteasytask.netlify.app/assets/icon-80.png" />
       </bt:Images>
       <bt:Urls>
-        <!-- replace YOUR-VERCEL-URL with your deployed URL -->
-        <bt:Url id="Commands.Url"  DefaultValue="https://YOUR-VERCEL-URL/index.html" />
-        <bt:Url id="Taskpane.Url"  DefaultValue="https://YOUR-VERCEL-URL/index.html" />
+        <!-- replace outlook-geteasytask.netlify.app with your deployed URL -->
+        <bt:Url id="Commands.Url"  DefaultValue="https://outlook-geteasytask.netlify.app/index.html" />
+        <bt:Url id="Taskpane.Url"  DefaultValue="https://outlook-geteasytask.netlify.app/index.html" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel"           DefaultValue="EasyTask" />
