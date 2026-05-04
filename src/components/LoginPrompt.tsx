@@ -30,7 +30,7 @@ const LoginPrompt: React.FC<Props> = ({ onAuthenticated }) => {
     Office.context.ui.displayDialogAsync(
       dialogUrl,
       { height: 65, width: 35, displayInIframe: false },
-      (asyncResult) => {
+      (asyncResult: Office.AsyncResult<Office.Dialog>) => {
         if (asyncResult.status === Office.AsyncResultStatus.Failed) {
           setError('Could not open login window. Please try again.');
           setLoading(false);
